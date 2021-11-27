@@ -1,15 +1,15 @@
 # test_app
 
-A new Flutter project.
+To run the app in debug mode
 
-## Getting Started
+- Connect a real device(Android or IOS) or an emulator/simulator
+- Run the command "flutter packages get"
+- Run the command "flutter run --dart-define=PASSWORD=passcode" where "passcode" is your desired password
 
-This project is a starting point for a Flutter application.
+To build a production grade APK file
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Run the command "flutter packages get"
+- Run the command "flutter build apk --dart-define=PASSWORD=passcode"
 
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,

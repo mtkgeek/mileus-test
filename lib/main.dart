@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
       child: GetMaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Test',
-        initialRoute: '/map',
+        initialRoute: '/login',
         getPages: AppRoutes.routes,
       ),
     );
