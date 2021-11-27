@@ -208,7 +208,7 @@ class LocationController extends GetxController with StateMixin {
           title: 'Origin',
           snippet: '${route?.waypoints?.first.name}',
         ),
-        icon: BitmapDescriptor.defaultMarker,
+        icon: BitmapDescriptor.defaultMarkerWithHue(BitmapDescriptor.hueGreen),
       );
 
       Marker endMarker = Marker(
